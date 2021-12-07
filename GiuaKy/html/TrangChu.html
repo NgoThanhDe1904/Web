@@ -11,28 +11,63 @@
 </head>
 <body>
 <div id="page">
-  <div class="header_Logo">
-    <div class="logo_image">
-      <img src="../image/Logo-image/Lit_Logo.png" alt="">
-    </div>
-
-    <div class="input-search">
-      <input type="text" name="name" placeholder="Sản phẩm bạn muốn tìm">
-      <a href="#" class="fa fa-search"> </a>
-    </div>
-
-    <div class="username">
-      <img src="../image/Logo-image/user_image.png" alt="">
-      <div class="username-join">
-        <a href="DangNhap.html?quanly=DangNhap&id=1">Đăng nhập</a>
-        <a href="DangKy.html?quanly=DangKy&id=1">Đăng ký</a>
+  <header class="style_header">
+    <div class="contain">
+      <div class="Middle-leftcontain">
+        <div class="middle">
+          <div class="menu">
+            <div class="style-logo">
+              <a href="TrangChu.html" class="shop-lit-logo">
+                <img src="../image/Logo-image/Lit_Logo.png" alt="logo" height="12px" width="76px">
+              </a>
+            </div>
+          </div>
+          <div class="formsearch">
+            <div class="formsearch-root-scs">
+              <input type="text" value placeholder="Tìm sản phẩm, danh mục mong muốn..." name="namesearch" class="formsearch-input">
+              <button data-product_id="mainsearc" class="formsearch-button">
+                <i class="fa fa-search"></i>Tìm kiếm
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="usernamestyle">
+          <div class="userstyle-item">
+            <img src="../image/Logo-image/logo.png" class="profile-icon">
+            <span class="userstyle-nowrap">Tài khoản</span>
+            <ul>
+              <li class="dropdownHeader">
+                <a href="#" class="dropbtnHeader">Nguyễn Văn A</a>
+                <div class="dropdownHeader-contented">
+                  <a href="#" class="invai">Đơn hàng của tôi</a>
+                  <a href="#" class="invai"> Thông báo của tôi</a>
+                  <a href="#" class="invai">Tài khoản của tôi</a>
+                  <a href="#" class="invai">Nhận xét về sản phẩm đã mua</a>
+                  <a href="#" class="invai">
+                    <img src="../image/Logo-image/voucher.svg" alt="">Mã giảm giá
+                    <br> <span class="intertaiment">Bạn đang có 0 mã giảm giá</span>
+                  </a>
+                  <a href="#" class="invai">Hoàn trả sản phẩm dễ dàng</a>
+                  <a href="#" class="invai"> Thoát tài khoản</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="userstyle-cartItem">
+            <a href="#" rel="nofollow">
+              <div class="userstyle-item-sc">
+                <div class="cart-wrapper">
+                  <img src="../image/Logo-image/shopping-cartpc.jpg" alt="" class="cart-icon" >
+                  <span class="userstyle-itemcartquanty">1</span>
+                </div>
+                <span class="cart-text">Giỏ hàng</span>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="gio_hang">
-      <a href="GioHang.html"> <img src="../image/Logo-image/shopping-cart.png" alt="" style="width: 50px; height: 50px"></a>
-    </div>
-  </div>
+  </header>
   <div class="menubar">
     <div class="list_menu">
       <ul>
