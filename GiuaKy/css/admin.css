@@ -1,0 +1,683 @@
+body, html{
+    line-height: 1.15;
+    text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #efefef;
+    overflow-x: hidden;
+}
+a, li{
+    text-decoration: none;
+    list-style-type: none;
+}
+button, input {
+    overflow: visible;
+}
+*, ::before , ::after{
+    box-sizing: border-box;
+}
+/*Header*/
+.style_header{
+    position: relative;
+    background: rgb(26, 148, 255);
+    z-index: 999;
+}
+.style_header *{
+    letter-spacing: normal;
+}
+.contain{
+    width: 1270px;
+    padding-left:15px ;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.middle{
+    display: flex;
+    flex: 1 1 0%;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.Middle-leftcontain{
+    display: flex;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.Middle-leftcontain .menu{
+    display: flex;
+    align-items: flex-start;
+    flex-basis: 190px;
+    flex-shrink: 0;
+    margin-right: 16px;
+}
+.Middle-leftcontain .style-logo{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex: 1 1 0%;
+}
+.shop-lit-logo{
+    width: 60px;
+    height: 40px;
+    display: block;
+}
+.shop-lit-logo img{
+    width: 100%;
+    height: 100%;
+}
+.formsearch{
+    flex: 1 1 0%;
+}
+.formsearch-root-scs{
+    width: 100%;
+    display: flex;
+    position: relative;
+    box-shadow: rgb(98 98 98) 0px 1px 2px 0px;
+}
+.formsearch .formsearch-root-scs .formsearch-input{
+    width: 620px;
+    border: 0px;
+    padding: 0px 12px;
+    font-size: 13px;
+    border-radius: 2px 0px 0px 2px;
+    flex: 1 1 0%;
+    outline: none;
+}
+.formsearch-root-scs button{
+    cursor: pointer;
+    border: 0px;
+    width: 120px;
+    background: rgb(13, 92, 182);
+    height: 40px;
+    border-radius: 0px 2px 2px 0px;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    outline: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack:center ;
+    justify-content: center;
+}
+.formsearch-root-scs button .fa{
+    width: 20px;
+    height: 20px;
+    margin: 0px 8px 0px 8px;
+}
+.usernamestyle{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: flex-end;
+}
+.userstyle-item{
+    cursor: pointer;
+    margin: 0px 0px 0px 16px;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    position: relative;
+    letter-spacing: 0.7px;
+    width: 162px;
+}
+.li-1{
+    display: flex;
+    flex-direction: row;
+}
+.userstyle-nowrap{
+    margin-top: 15px;
+}
+.profile-icon{
+    width: 32px;
+    height: 32px;
+    margin: 15px 8px 0px 10px;
+    border-radius: 50%;
+}
+.userstyle-item-text{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+}
+.userstyle-item{
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.userstyle-item ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.dropbtn{
+    margin-left: 45px;
+}
+.userstyle-item ul li{
+    float: left;
+}
+.userstyle-item li a, .dropbtn{
+    display: inline-block;
+    color: white;
+}
+.userstyle-item li a:hover, .dropdown:hover .dropbtn{
+    background-color: #9fcdff;
+}
+li.dropdown{
+    display: inline-block;
+}
+.dropdown-contented{
+    display: none;
+    position: absolute;
+    font-size: 11px;
+    background: #eeeeee;
+    min-width: 250px;
+    box-shadow: 0 8px 16px #eeeeee;
+    z-index: 15;
+    top: 65px;
+    left: calc(45%);
+    transform: translateX(-50%);
+}
+.dropdown-contented a{
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+}
+.dropdown-contented a:hover{
+    background: #eeeeee;
+}
+.dropdown:hover .dropdown-contented{
+    display: block;
+}
+.dropdown-contented .invai{
+    color: black;
+    font-size: 11px;
+}
+/*Giỏ hàng*/
+.userstyle-cartItem{
+    position: relative;
+    display: block;
+}
+.userstyle-item-sc{
+    align-items: flex-end;
+    width: 125px;
+    display: flex;
+}
+.cart-wrapper{
+    position: relative;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: row;
+}
+.cart-icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.userstyle-itemcartquanty {
+    color: rgb(36, 36, 36);
+    background: rgb(253, 216, 93);
+    height: 20px;
+    left: 20px;
+    top: -2px;
+    border-radius: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    position: absolute;
+    padding: 0px 7px;
+}
+.cart-text{
+    margin: 8px 0px 8px 5px;
+}
+.bottom-root-header{
+    position: relative;
+    z-index: 1;
+}
+.container-sc{
+    width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bottom-root-header div a img[AttributesStyle]{
+    aspect-ratio:auto 83/12 ;
+    margin-left: -15px;
+}
+.style-style_header{
+    margin-left: 206px;
+    height: 25px;
+}
+.style-style_header a{
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: white;
+    margin-left: 12px;
+}
+.shop-seller{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 12px;
+    height: 22px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 0px 8px;
+    display: flex;-webkit-box-align: center;
+    align-items: center;
+}
+/*Main*/
+main{
+    display: block;
+}
+.Container-sc{
+    width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px auto 0px auto;
+}
+.Account-StyleAccountLayout-sc{
+    display: flex;
+    width: 100%;
+    margin: 0px auto 20px;
+    flex-wrap: wrap;
+}
+.Breadcrumb-Wrapper{
+    background-color: rgb(245, 245, 250);
+}
+.Breadcrumb-Wrapper .breadcrumb{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.Breadcrumb-Wrapper a.breadcrumb-item{
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 40px;
+    color: rgb(128, 128, 137);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    white-space: nowrap;
+}
+.Breadcrumb-Wrapper .icon.icon-next{
+    margin: 0px 5.5px 0px 8.5px;
+}
+.Breadcrumb-Wrapper a.breadcrumb-item:last-child{
+    color: rgb(56, 56, 61);
+    cursor: default;
+    overflow: hidden;
+}
+.Breadcrumb-Wrapper a.breadcrumb-item:last-child span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*aside*/
+.Account-StyleSideBar-sc{
+    width: 250px;
+    margin-right: 17px;
+}
+.Account-StyleAvatar{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 7px;
+    margin: 0px 0px 12px;
+}
+.Account-StyleAvatar img{
+    width: 45px;
+    margin: 0px 12px 0px 0px;
+    border-radius: 50%;
+}
+.Account-StyleAvatar .info{
+    flex: 1 1 0%;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgb(51, 51, 51);
+    font-weight: 300;
+}
+.Account-StyleAvatar .info strong{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    display: block;
+    margin: 4px 0px 0px;
+}
+.Account_StyleNav-sc{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 13px;
+}
+.Account_StyleNav-sc a:hover,
+.Account_StyleNav-sc a:active,
+.Account_StyleNav-sc a:focus, .Account_StyleNav-sc a.is-active{
+    background-color: rgb(235, 235, 240);
+    color: rgb(0, 0, 0);
+}
+.Account_StyleNav-sc a{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 7px 18px;
+    color: rgb(74, 74,74);
+}
+.Account_StyleNav-sc a i{
+    width: 24px;
+    height: 24px;
+    margin: 0px 22px 0px 0px;
+    font-size: 24px;
+    color: rgb(155, 155, 155);
+}
+/*Account layout column 2: Thông tin tài khoản */
+.Account-StyleAccountLayoutInner{
+    flex: 1 1 0%;
+}
+.Style-StyleHeading-sc{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 300;
+    margin: 4px 0px 12px;
+}
+.Style_StyleInfoPage .info{
+    display: flex;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.Style_StyleInfoPage .info-left{
+    width: 553px;
+    padding: 16px 24px 16px 16px;
+}
+.Style_StyleInfoPage .info-title{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(100, 100, 109);
+}
+.Style-StyleAccountInfo-sc{
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    margin-top: 16px;
+}
+.Style-StyleAccountInfo-sc form{
+    width: 100%;
+}
+.Style-StyleAccountInfo-sc .form-control{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px 0px 34px;
+}
+.Style-StyleAccountInfo-sc .input-label{
+    width: 110px;
+    min-width: 110px;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+}
+.Style-StyleAccountInfo-sc .form-control > div{
+    display: flex;
+    flex: 1 1 0%;
+    position: relative;
+    z-index: 1;
+}
+.Style-StyleInput-sc{
+    width: 100%;
+}
+.Style-StyleInput-sc input{
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, -webkit-box-shadow 0.15s ease-in-out 0s;
+    height: 36px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px 12px;
+    line-height: 20px;
+    outline: none;
+    flex: 1 1 0%;
+    border: 1px solid rgb(196, 196, 207);
+}
+.Style-StyleBirthdayPicker select{
+    width: 100px;
+    border: 1px solid rgb(204, 204, 204);
+    height: 34px;
+    padding: 6px 12px;
+    line-height: 34px;
+    outline: none;
+    border-radius: 4px;
+    margin: 0px 12px 0px 0px;
+    background: 0px center;
+    box-shadow: none;
+}
+.Radio-StyledRadio-sc{
+    display: flex;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.Radio-StyledRadio-sc input[type="radio"]{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    visibility: hidden;
+    clip: rect(0px, 0px, 0px, 0px);
+    opacity: 0;
+}
+.Radio-StyledRadio-sc .radio-fake{
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgb(147, 150, 157);
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 10px 0px 0px;
+    position: relative;
+    z-index: 1;
+    color: rgb(120, 120, 120);
+    flex-shrink: 0;
+}
+.Radio-StyledRadio-sc .lable{
+    font-size: 13px;
+    line-height: 20px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.Style-StyleAccountInfo-sc .btn-submit{
+    width: 176px;
+}
+.Style-StyleBtnSubmit-sc{
+    border: 0px;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    background-color: rgb(11, 116, 229);
+    cursor: pointer;
+}
+/*Vertical*/
+.Style_StyleInfoPage .info-vertical{
+    border-left: 1px solid rgb(235, 235, 240);
+    margin: 16px 0px;
+}
+/*Account Layout column 3: Email sđt*/
+.Style_StyleInfoPage .info-right{
+    width: calc(100% - 553px);
+    padding: 16px 16px 16px 24px;
+    display: flex;
+    flex-direction: column;
+}
+.Style-StyledListItem-sc{
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+.Style-StyledListItem-sc .list-item:first-child{
+    border: none;
+}
+.Style-StyledListItem-sc .list-item{
+    border-top: 1px solid rgb(248, 248, 248);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 19px 0px;
+}
+.Style-StyledListItem-sc .info{
+    display: flex;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.Style-StyledListItem-sc .list-item .icon{
+    width: 24px;
+    height: 24px;
+    vertical-align: bottom;
+}
+.Style-StyledListItem-sc .list-item i{
+    width: 24px;
+    height: 24px;
+    margin: 0px 22px 0px 0px;
+    font-size: 24px;
+    color:rgb(155, 155, 155);
+}
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+img{
+    max-width: 100%;
+    border-style: none;
+}
+.Style-StyledListItem-sc .detail{
+    display: flex;
+    flex-direction: column;
+}
+.Style-StyledListItem-sc .list-item span{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0px 0px 0px 6px;
+    color: rgb(56, 56, 61);
+}
+.Style-StyledListItem-sc .list-item .status{
+    color: rgb(27, 168, 255);
+    flex: 1 1 0%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    display: flex;
+}
+.Style-StyledListItem-sc .list-item .status span{
+    cursor: pointer;
+}
+.Style-StyledListItem-sc .list-item .button.active{
+    border: 1px solid rgb(11, 116, 229);
+    background-color: rgb(255, 255, 255);
+}
+.Style-StyledListItem-sc .list-item .button{
+    border: 0px;
+    height: 28px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0px 12px;
+    color: rgb(11, 116, 229);
+}
+.Style-StyledListItem-sc .list-item .is-success{
+    color: rgb(120, 120, 120);
+}
+
+/*Footer*/
+.footer-list{
+    margin-top: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+    color: rgb(128, 128, 137);
+    background-color: white;
+}
+.styles-Information-sc{
+    padding: 16px 0px;
+}
+.Container-sc-int0{
+    width: 1270px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+.styles-footerHeading-sc{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: rgb(56, 56, 61);
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+.small-text{
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(128, 128, 137);
+}
+.block{
+    width: 226px;
+}
+.footer-list p{
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(128, 128,137);
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+.icon{
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+.styles-Address-sc{
+    padding: 16px 0px;
+    background-color: rgb(255, 255, 255);
+}
+.Container-add-sc{
+    width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.address{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.LITicon{
+    display: inline-block;
+    vertical-align: middle;
+}

@@ -1,10 +1,541 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/admin.css">
     <title>Thông tin cá nhân</title>
 </head>
 <body>
+    <div id="page">
+        <div class="homepage">
+            <header class="style_header">
+                <div class="contain">
+                    <div class="Middle-leftcontain">
+                        <div class="middle">
+                            <div class="menu">
+                                <div class="style-logo">
+                                    <a href="TrangChu.html" class="shop-lit-logo">
+                                        <img src="../image/Logo-image/Lit_Logo.png" alt="logo" height="12px" width="76px">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="formsearch">
+                                <div class="formsearch-root-scs">
+                                    <input type="text" value placeholder="Tìm sản phẩm, danh mục mong muốn..." name="namesearch" class="formsearch-input">
+                                    <button data-product_id="mainsearc" class="formsearch-button">
+                                        <i class="fa fa-search"></i>Tìm kiếm
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="usernamestyle">
+                            <div class="userstyle-item">
+                                <img src="../image/Logo-image/logo.png" class="profile-icon">
+                                <span class="userstyle-nowrap">Tài khoản</span>
+                                <ul>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropbtn">Nguyễn Văn A</a>
+                                        <div class="dropdown-contented">
+                                            <a href="#" class="invai">Đơn hàng của tôi</a>
+                                            <a href="#" class="invai"> Thông báo của tôi</a>
+                                            <a href="#" class="invai">Tài khoản của tôi</a>
+                                            <a href="#" class="invai">Nhận xét về sản phẩm đã mua</a>
+                                            <a href="#" class="invai">
+                                                <img src="../image/Logo-image/voucher.svg" alt="">Mã giảm giá
+                                                <br> <span class="intertaiment">Bạn đang có 0 mã giảm giá</span>
+                                            </a>
+                                            <a href="#" class="invai">Hoàn trả sản phẩm dễ dàng</a>
+                                            <a href="#" class="invai"> Thoát tài khoản</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="userstyle-cartItem">
+                                <a href="#" rel="nofollow">
+                                    <div class="userstyle-item-sc">
+                                        <div class="cart-wrapper">
+                                            <img src="../image/Logo-image/shopping-cartpc.jpg" alt="" class="cart-icon" >
+                                            <span class="userstyle-itemcartquanty">1</span>
+                                        </div>
+                                        <span class="cart-text">Giỏ hàng</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-root-header">
+                        <div class="container-sc" style="position: relative; display: flex; align-items: center; justify-content: space-between">
+                            <a href="#" style="position: absolute; top: 2.5px" class="container-tab">
+                                <img src="../image/Logo-image/freeship.png" alt="freeship" width="83" height="12" style="color: white; background: white">
+                            </a>
+                            <div class="style-style_header">
+                                <a href="#" data-index="0" data-product_id="header">Tất cả</a>
+                                <a href="#" data-product_id="header" data-index="1">Giày</a>
+                                <a href="#" data-product_id="header" data-index="2">Balo</a>
+                                <a href="#" data-product_id="header" data-index="3">Áo </a>
+                                <a href="#" data-index="4" data-product_id="header">Túi</a>
+                                <a href="#" data-index="5" data-product_id="header">Phụ kiện </a>
+                            </div>
+                            <a href="#" class="shop-seller">
+                                <img src="#" alt="" class="fa fa-sellsy">
+                                <span class="text">Săn sale</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
 
+            <main>
+                <div class="Container-sc">
+                    <div class="Account-StyleAccountLayout-sc">
+                        <div class="Breadcrumb-Wrapper" data-view-id="breadcrumb">
+                            <div class="Container-sc">
+                                <div class="breadcrumb">
+                                    <a href="/" class="breadcrumb-item" data-view-index="0" data-view-id="breadcrumb-item">
+                                        <span>Trang chủ</span>
+                                    </a>
+                                    <i class="fa fa-chevron-right" style="margin: 0px 7px 0px 7px"></i>
+                                    <a href="#" class="breadcrumb-item" data-view-id="breadcrumb_item" data-view-index="1">
+                                        <span title="Thông tin tài khoản">Thông tin tài khoản</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <aside class="Account-StyleSideBar-sc">
+                            <div class="Account-StyleAvatar">
+                                <img src="../image/Logo-image/avatar.png" alt="">
+                                <div class="info">
+                                    Tài khoản của
+                                    <strong>Ngô Thành Đề</strong>
+                                </div>
+                            </div>
+                            <ul class="Account_StyleNav-sc">
+                                <li>
+                                    <a href="#" class="is-active">
+                                        <i class="fa fa-user"></i>
+                                        <span>Thông tin tài khoản</span>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-bell"></i>
+                                        <span>Thông báo của tôi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-book"></i>
+                                        <span>Quản lí đơn hàng</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-map-marker"></i>
+                                        <span>Sổ địa chỉ</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-credit-card-alt"></i>
+                                        <span>Thông tin thanh toán</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-clipboard"></i>
+                                        <span>Nhận xét sản phẩm</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                        <span>Sản phẩm bạn đã xem</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                        <span>Sản phẩm yêu thích</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        <span>Sản phảm mua sao</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-star"></i>
+                                        <span>Nhận xét của tôi</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+                        <div class="Account-StyleAccountLayoutInner">
+                            <div class="Style-StyleHeading-sc">
+                                Thông tin tài khoản
+                            </div>
+                            <div class="Style_StyleInfoPage">
+                                <div class="info">
+                                    <div class="info-left">
+                                        <span>Thông tin cá nhân</span>
+                                        <div class="Style-StyleAccountInfo-sc">
+                                            <form action="">
+                                                <div class="form-control">
+                                                    <label class="input-label">Họ & Tên</label>
+                                                    <div>
+                                                        <div class="Style-StyleInput-sc">
+                                                            <input type="search" class="input " name="fullName" maxlength="128" placeholder="Thêm họ tên" value="Ngô Thành Đề">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-control">
+                                                    <label class="input-label">Nickname</label>
+                                                    <div class="Style-StyleInput-sc">
+                                                        <input type="search" maxlength="128" name="userName" placeholder="Thêm nickname" value="" class="input ">
+                                                    </div>
+                                                </div>
+                                                <div class="form-control">
+                                                    <label class="input-label">Ngày sinh</label>
+                                                    <div class="Style-StyleBirthdayPicker">
+                                                        <select name="day" id="">
+                                                            <option value="0" selected disabled>Ngày</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                            <option value="6">6</option>
+                                                            <option value="7">7</option>
+                                                            <option value="8">8</option>
+                                                            <option value="9">9</option>
+                                                            <option value="10">10</option>
+                                                            <option value="11">11</option>
+                                                            <option value="12">12</option>
+                                                            <option value="13">13</option>
+                                                            <option value="14">14</option>
+                                                            <option value="15">15</option>
+                                                            <option value="16">16</option>
+                                                            <option value="17">17</option>
+                                                            <option value="18">18</option>
+                                                            <option value="19">19</option>
+                                                            <option value="20">20</option>
+                                                            <option value="21">21</option>
+                                                            <option value="22">22</option>
+                                                            <option value="23">23</option>
+                                                            <option value="24">24</option>
+                                                            <option value="25">25</option>
+                                                            <option value="26">26</option>
+                                                            <option value="27">27</option>
+                                                            <option value="28">28</option>
+                                                            <option value="29">29</option>
+                                                            <option value="30">30</option>
+                                                            <option value="31">31</option>
+                                                        </select>
+                                                        <select name="month" >
+                                                            <option value="0" disabled selected>Tháng</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                            <option value="6">6</option>
+                                                            <option value="7">7</option>
+                                                            <option value="8">8</option>
+                                                            <option value="9">9</option>
+                                                            <option value="10">10</option>
+                                                            <option value="11">11</option>
+                                                            <option value="12">12</option>
+                                                        </select>
+                                                        <select name="year">
+                                                            <option value="0" selected disabled>Năm</option>
+                                                            <option value="2021">2021</option>
+                                                            <option value="2020">2020</option>
+                                                            <option value="2019">2019</option>
+                                                            <option value="2018">2018</option>
+                                                            <option value="2017">2017</option>
+                                                            <option value="2016">2016</option>
+                                                            <option value="2015">2015</option>
+                                                            <option value="2014">2014</option>
+                                                            <option value="2013">2013</option>
+                                                            <option value="2012">2012</option>
+                                                            <option value="2011">2011</option>
+                                                            <option value="2010">2010</option>
+                                                            <option value="2009">2009</option>
+                                                            <option value="2008">2008</option>
+                                                            <option value="2007">2007</option>
+                                                            <option value="2006">2006</option>
+                                                            <option value="2005">2005</option>
+                                                            <option value="2004">2004</option>
+                                                            <option value="2003">2003</option>
+                                                            <option value="2002">2002</option>
+                                                            <option value="2001">2001</option>
+                                                            <option value="2000">2000</option>
+                                                            <option value="1999">1999</option>
+                                                            <option value="1998">1998</option>
+                                                            <option value="1997">1997</option>
+                                                            <option value="1996">1996</option>
+                                                            <option value="1995">1995</option>
+                                                            <option value="1994">1994</option>
+                                                            <option value="1993">1993</option>
+                                                            <option value="1992">1992</option>
+                                                            <option value="1991">1991</option>
+                                                            <option value="1990">1990</option>
+                                                            <option value="1989">1989</option>
+                                                            <option value="1988">1988</option>
+                                                            <option value="1987">1987</option>
+                                                            <option value="1986">1986</option>
+                                                            <option value="1985">1985</option>
+                                                            <option value="1984">1984</option>
+                                                            <option value="1983">1983</option>
+                                                            <option value="1982">1982</option>
+                                                            <option value="1981">1981</option>
+                                                            <option value="1980">1980</option>
+                                                            <option value="1979">1979</option>
+                                                            <option value="1978">1978</option>
+                                                            <option value="1977">1977</option>
+                                                            <option value="1976">1976</option>
+                                                            <option value="1975">1975</option>
+                                                            <option value="1974">1974</option>
+                                                            <option value="1973">1973</option>
+                                                            <option value="1972">1972</option>
+                                                            <option value="1971">1971</option>
+                                                            <option value="1970">1970</option>
+                                                            <option value="1969">1969</option>
+                                                            <option value="1968">1968</option>
+                                                            <option value="1967">1967</option>
+                                                            <option value="1966">1966</option>
+                                                            <option value="1965">1965</option>
+                                                            <option value="1964">1964</option>
+                                                            <option value="1963">1963</option>
+                                                            <option value="1962">1962</option>
+                                                            <option value="1961">1961</option>
+                                                            <option value="1960">1960</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-control">
+                                                    <label class="input-label">Giới tính</label>
+                                                    <label class="Radio-StyledRadio-sc">
+                                                        <input type="radio" name="gender" value="male">
+                                                        <span class="radio-fake"></span>
+                                                        <span class="label">Nam</span>
+                                                    </label>
+                                                    <label class="Radio-StyledRadio-sc">
+                                                        <input type="radio" name="gender" value="female">
+                                                        <span class="radio-fake"></span>
+                                                        <span class="label">Nữ</span>
+                                                    </label>
+                                                    <label class="Radio-StyledRadio-sc">
+                                                        <input type="radio" name="gender" value="other">
+                                                        <span class="radio-fake"></span>
+                                                        <span class="label">Khác</span>
+                                                    </label>
+                                                </div>
+                                                <div class="form-control">
+                                                    <label class="input-label">&nbsp;</label>
+                                                    <button type="submit" class="Style-StyleBtnSubmit-sc btn-submit">
+                                                        Lưu thay đổi
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="info-vertical"></div>
+                                    <div class="info-right">
+                                        <span class="info-title">Số điện thoại và Email</span>
+                                        <div class="Style-StyledListItem-sc">
+                                            <div class="list-item">
+                                                <div class="info">
+                                                    <i class="fa fa-phone"></i>
+                                                    <div class="detail">
+                                                        <span>Số điện thoại</span>
+                                                        <span>xxxxxxxxxx</span>
+                                                    </div>
+                                                </div>
+                                                <div class="status">
+                                                    <span></span>
+                                                    <button class="button active">Cập nhật</button>
+                                                </div>
+                                            </div>
+                                            <div class="list-item">
+                                                <div class="info">
+                                                    <i class="fa fa-envelope"></i>
+                                                    <div class="detail">
+                                                        <span>Địa chỉ email</span>
+                                                        <span class="span hint">thêm địa chỉ email</span>
+                                                    </div>
+                                                </div>
+                                                <div class="status">
+                                                    <span></span>
+                                                    <button class="button active">Cập nhật</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <span class="info-title">Bảo mật</span>
+                                        <div class="Style-StyledListItem-sc">
+                                            <div class="list-item">
+                                                <div>
+                                                    <i class="fa fa-lock"></i>
+                                                    <span>Thiết lập mật khẩu</span>
+                                                </div>
+                                                <div class="status">
+                                                    <span></span>
+                                                    <button class="button active">Cập nhật</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <span class="info-title">Liên kết mạng xã hội</span>
+                                        <div class="Style-StyledListItem-sc">
+                                            <div class="list-item">
+                                                <div>
+                                                    <img src="../image/Logo-image/zalo.png" alt="" class="icon">
+                                                    <span>Zalo</span>
+                                                </div>
+                                                <div class="status">
+                                                    <span></span>
+                                                    <button class="button active">Liên kết</button>
+                                                </div>
+                                            </div>
+
+                                            <div class="list-item">
+                                                <div>
+                                                    <img src="../image/Logo-image/face.jpg" alt="" class="icon">
+                                                    <span>Facebook</span>
+                                                </div>
+                                                <div class="status is-success">
+                                                    <span></span>
+                                                    <button class="button active">Đã liên kiết</button>
+                                                </div>
+                                            </div>
+                                            <div class="list-item">
+                                                <div>
+                                                    <img src="../image/Logo-image/google.jpg" class="icon">
+                                                    <span>Google</span>
+                                                </div>
+                                                <div class="status">
+                                                    <span></span>
+                                                    <button class="button active">Liên kết</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <footer class="footer-list">
+                <div class="styles-Information-sc">
+                    <div style="display: flex; justify-content: space-between" class="Container-sc-int0">
+                        <div class="block" style="width: 268px;">
+                            <h4 class="styles-footerHeading-sc">Hổ trợ khách hàng</h4>
+                            <p class="hotline" style="margin-bottom: 8px">Hotline:
+                                <a href="tel: 19001001">19001001</a>
+                                <span class="small-text">(1000đ/phút, 8-21h kể cả T7, CN)</span>
+                            </p>
+                            <a href="#" rel="noreferrer" target="_blank" class="small-text">Câu hỏi thường gặp</a>
+                            <a href="#" rel="noreferrer" target="_blank" class="small-text">Gửi yêu cầu hổ trợ</a>
+                            <a href="#" rel="noreferrer" target="_blank" class="small-text">Hướng dẫn đặt hàng</a>
+                            <a href="#" rel="noreferrer" target="_blank" class="small-text">Phương thức vận chuyển</a>
+                            <a href="#" rel="noreferrer" target="_blank" class="small-text">Chính sách đổi trả</a>
+                            <a href="#" rel="noreferrer" target="_blank" class="small-text">Hướng dẫn trả góp</a>
+                            <p class="security">Hổ trợ khách hàng:
+                                <a href="mailto:hotro@LIT.com.vn">hotro@LIT.com.vn</a>
+                            </p>
+                            <p class="security">Báo lỗi bảo mật:
+                                <a href="mailto:security@LIT.com.vn">security@LIT.com.vn</a>
+                            </p>
+                        </div>
+                        <div class="block">
+                            <h4 class="styles-footerHeading-sc">
+                                Về LIT
+                            </h4>
+                            <a href="#" rel="noreferrer" target="_blank" class="small-text">Giới thiệu LIT</a>
+                            <a href="#" rel="noreferrer" target="_blank" class="small-text">Tuyển dụng</a>
+                            <a href="#" rel="noreferrer" target="_blank" class="small-text">Chính sách bảo mật thanh toán</a>
+                            <a href="#" rel="noreferrer" target="_blank" class="small-text">Chính sách bảo mật thông tin cá nhân</a>
+                            <a href="#" rel="noreferrer" target="_blank" class="small-text">Chính sách giải quyết khiếu nại </a>
+                            <a href="#" rel="noreferrer" target="_blank" class="small-text">Điều khoản sử dụng</a>
+                        </div>
+                        <div class="block">
+                            <h4 class="styles-footerHeading-sc">Hợp tác và liên kết</h4>
+                            <a href="#" rel="noreferrer" target="_blank" class="small-text">Quy chế hoạt động</a>
+                            <div class="flex">
+                                <a href="#" rel="noreferrer" target="_blank" aria-label style="height: 32px;">
+                                    <img src="../image/Logo-image/bo-cong-thuong-2.png" alt="" width="32px">
+                                </a>
+                                <a href="#" rel="noreferrer" target="_blank" aria-label style="height: 32px">
+                                    <img src="../image/Logo-image/bo-cong-thuong.svg" alt="" height="32px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <h4 class="styles-footerHeading-sc">Phương thức thanh toán</h4>
+                            <p class="payment">
+                <span class="icon">
+                  <img src="../image/Logo-image/jcb.png" alt="" width="40px" height="40px">
+                </span>
+                                <span class="icon">
+                  <img src="../image/Logo-image/paypal.png" alt="" height="40px" width="40px">
+                </span>
+                                <span class="icon">
+                  <img src="../image/Logo-image/zalopay.png" alt="" height="40px" width="40px" >
+                </span>
+                                <span class="icon">
+                  <img src="../image/Logo-image/momo.png" alt="" width="40px" height="40px">
+                </span>
+                                <span class="icon">
+                  <img src="../image/Logo-image/mastercard.jpg" alt="" width="40px" height="40px">
+                </span>
+                                <span class="icon">
+                  <img width="40px" height="40px" src="../image/Logo-image/viettelpay.png" alt="">
+                </span>
+                                <span class="icon">
+                  <img src="../image/Logo-image/visacard.png" alt="" width="40px" height="40px">
+                </span>
+                            </p>
+                        </div>
+                        <div class="block">
+                            <h4 class="styles-footerHeading-sc">Kết nối với chúng tôi</h4>
+                            <p>
+                                <a href="#" rel="noreferrer" target="_blank" class="icon" title="Facebook">
+                                    <img src="../image/Logo-image/zalo.png" alt="" width="40px" height="40px">
+                                </a>
+                                <a href="#" rel="noreferrer" target="_blank" class="icon" title="Youtube">
+                                    <img src="../image/Logo-image/face.jpg" alt="" width="40px" height="40px">
+                                </a>
+                                <a href="#" rel="noreferrer" target="_blank" class="icon" title="Gmail">
+                                    <img src="../image/Logo-image/gmail.png" width="40" height="40" alt="">
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="styles-Separator indicate"></div>
+                <div class="styles-Address-sc">
+                    <div style="display:flex" class="Container-add-sc">
+                        <div class="address">
+                            <i class="LITicon icon-location"></i>
+                            <div class="address-info">
+                                <p class="small-text">Địa chỉ: 32 An Nhơn, phường 17, quận Gò Vấp, thành phố Hồ Chí Minh</p>
+                                <p class="small-text">LIT nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại văn phòng hoặc trung tâm xử lý đơn hàng</p>
+                                <p class="small-text">Giấy chứng nhận Đăng ký Kinh doanh số 0309532909 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 06/01/2010</p>
+                                <p class="small-text" style="margin-bottom:0">© 2021 - Bản quyền của Công Ty Cổ Phần LIT - LIT.vn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
