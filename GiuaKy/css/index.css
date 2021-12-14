@@ -1,4 +1,5 @@
 body, html{
+    width: 100%;
     line-height: 1.15;
     text-size-adjust: 100%;
     font-size: 15px;
@@ -7,6 +8,11 @@ body, html{
     padding: 0;
     background-color: #efefef;
     overflow-x: hidden;
+}
+.Container-page{
+    width: 1366px;
+    padding-left: 15px;padding-right: 15px;
+    margin-left: auto;margin-right: auto;
 }
 a, li{
     text-decoration: none;
@@ -284,11 +290,114 @@ li.dropdown-header{
 }
 
 /*Menu bar*/
+/*    Menubar list-no-padding*/
+.list-no-padding{
+    padding: 0 !important;
+}
+@media (min-width: 992px){}
+.col-md-3 {
+    width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.menubar .mainMenu{
+    background: #fff;
+    height: auto;
+    color: #333;
+    cursor: pointer;
+    box-shadow: 0 0 4px 0 rgb(0 0 0);
+}
+.menubar .mainMenu .line{
+    float: left;
+    padding: 14px 10px;
+    position: relative;
+    z-index: 12;
+}
+.menubar .mainMenu .line i{
+    display: block;
+    margin: 2px 0;
+    height: 2px;
+    background: #333333;
+    border-radius: 4px;
+    width: 15px;
+}
+.menubar .mainMenu span{
+    background: rgb(255, 255,255);
+    display: block;
+    position: relative;
+    z-index: 11;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.menubar .mainMenu .nav-cate{
+    overflow: visible;
+    clear: both;
+    position: absolute;
+    top: 43px;
+    left: -1px;
+    z-index: 10;
+    height: 0;
+}
+.menubar .mainMenu .nav-cate ul{
+    width: 100%;
+    min-height: 364px;
+    background: #fff;
+    overflow: visible;
+    box-shadow: 2px 4px 0 rgb(0 0 0);
+    border-left: 1px solid #ddd;
+}
+.menubar .mainMenu .nav-cate ul li.dropdown-nav{
+    position: static;
+}
+.menubar .mainMenu .nav-cate ul li{
+    display: block;
+    overflow: visible;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.menubar .mainMenu .nav-cate ul li h3{
+    position: relative;
+    display: block;
+    color: #333;
+    line-height: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: .01em;
+}
+.menubar .mainMenu .nav-cate ul li h3 img{
+    max-width: 22px;
+    float: left;
+    margin-right: 5px;
+}
+.menubar .mainMenu .nav-cate ul li h3 a{
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+.menubar .mainMenu .nav-cate ul li .subcate{
+    display: none;
+    cursor: default;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    height: 404px;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 /25%);
+    width: 300%;
+}
+/*    Menubar list-menu*/
 .menubar .list_menu ul {
   margin: auto;
   overflow: hidden;
   text-align: center;
-  background-color: rgb(145, 145, 145);
+  background-color: rgb(255, 255, 255);
 }
 .menubar .list_menu ul li{
   float: left;
@@ -299,12 +408,12 @@ li.dropdown-header{
 .menubar .list_menu li a, .dropbtn{
   display: inline-block;
   color: black;
-  text-align: center;
-  padding: 14px 16px;
+  text-align: left;
+  padding: 10px 12px;
   text-decoration: none;
 }
 .menubar .list_menu li a:hover, .dropbtn:hover .dropbtn{
-  background-color: #b3d4fc;
+  color: #2990ff;
 }
 .menubar .list_menu li.dropbtn{
   display: inline-block;
@@ -325,31 +434,33 @@ li.dropdown{
   display: none;
 }
 .dropdown-content a:hover{
-  background-color: aquamarine;
+  color: #aeaeae;
 }
 .dropdown:hover .dropdown-content{
   display: block;
+    width: 70%;
 }
 .dropdown-content .content-dis{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 80%;
 }
 .dropdown-content .list .invai{
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
 .dropdown-content .list div{
   display: flex;
-  flex-direction: column;
-  font-size: 15px;
+  font-size: 13px;
+  flex-flow: column;
 }
 /*Main - Hotline*/
 .main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: #eef6ff;
+  background: rgb(255, 255, 255);
   text-align: left;
   margin: 20px 0;
 }
@@ -380,7 +491,7 @@ li.dropdown{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: auto;
+  margin: 0;
 }
 .search input{
   padding: 10px 30px 10px 5px;
