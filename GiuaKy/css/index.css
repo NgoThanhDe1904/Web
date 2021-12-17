@@ -5,6 +5,7 @@
     #page{
         flex-basis: 50%;
     }
+
 }
     body, html {
         width: 100%;
@@ -350,6 +351,7 @@
         float: left;
         position: relative;
         min-height: 1px;
+        z-index: 1;
         padding-right: 15px;
         padding-left: 15px;
     }
@@ -387,12 +389,11 @@
 
     .menubar .mainMenu .nav-cate li {
         color: #333;
-        font-weight: bold;
         display: block;
     }
 
     .mainMenu .nav-cate li:hover {
-        background: #cde2cd;
+        background: #eeeeee;
     }
 
     .mainMenu .nav-cate ul li {
@@ -417,11 +418,22 @@
         padding: 13px 0;
         font-weight: bold;
     }
+    .list-no-padding .mainMenu span::after{
+        content: '';
+        border-top: 6px solid #666;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        width: 0;
+        height: 0;
+        display: inline-block;
+        margin-left: 38px;
+        position: relative;
+        top: -2px;
+    }
 
     .mainMenu .nav-cate li:hover .subcate {
         display: block;
     }
-
     .menubar .mainMenu .nav-cate ul li.dropdown-nav h3:after {
         content: '';
         width: 0;
@@ -442,7 +454,7 @@
         display: block;
         color: #333;
         line-height: 20px;
-        padding: 10px 0;
+        padding: 14px 10px;
         border-bottom: 1px solid #eee;
         margin: 0;
         font-size: 14px;
@@ -459,8 +471,12 @@
         display: block;
         font-size: 14px;
         color: #333;
+        z-index: 1000;
+        font-weight: 500;
     }
-
+.menubar .mainMenu .nav-cate ul li h3 a:hover{
+    color: #2990ff;
+}
     .subcate aside {
         width: 25%;
         padding: 5px 10px;
@@ -474,8 +490,12 @@
         display: block;
         text-transform: none;
         padding: 4px 10px;
+        color: black;
+        font-weight: 500;
     }
-
+.subcate aside a:hover {
+    color: #2990ff;
+}
     /*    Menubar list-menu*/
     .menubar .list_menu ul {
         margin: auto;
@@ -560,6 +580,42 @@
         flex-flow: column;
         font-weight: normal;
     }
+    /*My Carousel*/
+.myCarousel{
+    width: 1085px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 0;
+}
+    .carousel-inner{
+        width: 4400px;
+        display: flex;
+        z-index: -1;
+        transition: 1s;
+    }
+    .carousel-inner .owl-item{
+        color: #fff;
+        transition: 1s;
+        z-index: 0;
+    }
+    .carousel-inner .owl-item img{
+        height: 400px;
+    }
+    .myCarousel i{
+        position: absolute;
+        top: 50%;
+        font-size:50px;
+        /*transform: translateY(-45%);*/
+        cursor: pointer;
+        color: #aeaeae;
+        padding-left: 20px;
+    }
+    .myCarousel i.fa-chevron-circle--left{
+        left: 1%;
+    }
+    .myCarousel i.fa-chevron-circle-right{
+        right: 1%;
+    }
 
     /*Main - Hotline*/
     .main-col-3 {
@@ -633,6 +689,13 @@
     }
 
     /*Vot Cau Long*/
+    .Vot-Cau_Long{
+        width: 1366px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .Vot-Cau_Long .Vot {
         background-color: #999999;
         margin-top: 50px;
@@ -684,12 +747,12 @@
     }
 
     .Vot-Cau_Long .image img {
-        width: 300px;
-        height: 400px;
+        width: 178px;
+        height: 178px;
     }
 
     .Vot-Cau_Long .image .img .title-edit {
-        font-size: 18px;
+        font-size: 1em;
         padding: 12px;
         bottom: 0;
         left: 0;
@@ -715,6 +778,13 @@
     }
 
     /*Giay Cau Long*/
+    .Giay-Cau-Long{
+        width: 1366px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .Giay-Cau-Long .Giay {
         background-color: #999999;
         margin-top: 50px;
@@ -802,6 +872,13 @@
     }
 
     /*Ao cau long*/
+.Ao-Cau-Long{
+    width: 1366px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
     .Ao-Cau-Long .Ao {
         background-color: #999999;
         margin-top: 50px;
@@ -842,6 +919,7 @@
     .image-Ao {
         width: 100%;
         display: flex;
+        height: auto;
     }
 
     .image-Ao .img-Ao {
@@ -853,14 +931,14 @@
     }
 
     .image-Ao .img-Ao img {
-        height: 400px;
-        width: 300px;
+        height: 178px;
+        width: 178px;
     }
 
     .title-edit-Ao {
         color: red;
         text-align: center;
-        font-size: 18px;
+        font-size: 1em;
         padding: 15px;
         position: relative;
         bottom: 0;
@@ -887,6 +965,13 @@
     }
 
     /*Quan cau long*/
+    .Quan-Cau-long{
+        width: 1366px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .Quan-Cau-long .Quan {
         background-color: #999999;
         margin-top: 50px;
@@ -930,8 +1015,8 @@
     }
 
     .image-Quan img {
-        width: 400px;
-        height: 300px;
+        width: 178px;
+        height: 178px;
     }
 
     .img-Quan {
@@ -941,13 +1026,13 @@
     .title-edit-Quan {
         color: red;
         text-align: center;
-        font-size: 18px;
+        font-size: 1em;
         padding: 15px;
         position: relative;
         bottom: 0;
         left: 0;
         right: 0;
-        background-image: linear-gradient(to bottom, transparent, #999999, #cccccc, #eeeeee);
+        background: #fff
     }
 
     .edit-image-Quan i {
@@ -968,6 +1053,12 @@
     }
 
     /*Balo àu long*/
+    .Balo-Cau-long{
+        width: 1366px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;margin-right: auto;
+    }
     .Balo-Cau-long .Balo {
         background-color: #999999;
         margin-top: 50px;
@@ -1022,13 +1113,13 @@
     .title-edit-Balo {
         color: red;
         text-align: center;
-        font-size: 18px;
+        font-size: 1em;
         padding: 15px;
         position: relative;
         bottom: 0;
         left: 0;
         right: 0;
-        background-image: linear-gradient(to bottom, transparent, #999999, #cccccc, #eeeeee);
+        background:#fff;
     }
 
     .edit-image-Balo i {
@@ -1049,6 +1140,13 @@
     }
 
     /*Tui vot cau long*/
+    .Tui-Vot-Cau-Long{
+        width: 1366px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
     .Tui-Vot-Cau-Long .Tui {
         background-color: #999999;
         margin-top: 50px;
@@ -1103,13 +1201,13 @@
     .title-edit-Tui {
         color: red;
         text-align: center;
-        font-size: 18px;
+        font-size: 1em;
         padding: 15px;
         position: relative;
         bottom: 0;
         left: 0;
         right: 0;
-        background-image: linear-gradient(to bottom, transparent, #999999, #cccccc, #eeeeee);
+        background: #fff;
     }
 
     .edit-image-Tui i {
@@ -1130,6 +1228,13 @@
     }
 
     /*edit Phu kien*/
+.Phu-Kien-Cau-Long{
+    width: 1366px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
     .Phu-Kien-Cau-Long .Phu-Kien {
         background-color: #999999;
         margin-top: 50px;
