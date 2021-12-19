@@ -21,4 +21,4 @@ Back();
 
 setInterval(function (){
     Next();
-}, 3000);
+}, 5000);

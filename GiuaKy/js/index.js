@@ -1,27 +1,27 @@
 //Phan mui ten cua vot
-var left = document.querySelector("i.fa-chevron-circle-left");
-var right = document.querySelector("i.fa-chevron-circle-right");
-var itemActive = document.querySelector(".img-active");
-console.log(itemActive);
+var leftVot = document.querySelector("i.fa-vot-left");
+var rightVot = document.querySelector("i.fa-vot-right");
+var itemVot = document.querySelector(".img-Vot-Active");
+console.log(itemVot)
+var countVot = 0;
 
-var count = 0;
-function  rightClick(){
-  right.addEventListener("click", function (){
-    if (count == 8) count = 0;
-    itemActive.style.marginLeft = `calc(-33.33% * ${count})`;
-    count++;
-  })
+function rightClickVot(){
+    rightVot.addEventListener("click", function (){
+        if(countVot == 7) countVot = 0;
+        itemVot.style.marginLeft = `calc(-33.33% * ${countVot})`;
+        countVot++;
+    })
 }
-rightClick();
+rightClickVot();
 
-function  leftClick(){
-  left.addEventListener("click", function (){
-    if (count == -1) count = 9;
-    itemActive.style.marginLeft = `calc(-33.33% * ${count})`;
-    count--;
-  })
+function leftClickVot(){
+    leftVot.addEventListener("click", function (){
+        if (countVot == -1) countVot = 2;
+        itemVot.style.marginLeft = `calc(-33.33% * ${countVot})`;
+        countVot--;
+    })
 }
-leftClick();
+leftClickVot();
 
 //Phan mui ten cua giay
 var leftg = document.querySelector("i.fa-Giay-Left");
