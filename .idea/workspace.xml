@@ -5,29 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ce7fb2f-0a48-465b-9187-c87a84ad5e9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GiuaKy/css/Vot_cau_long.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/VS_Blade_7000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/VS_Blade_7300.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/VS_Blade_7800.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/adidas-wucht-p8-2021-olympic-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/lining-tectonic-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/lining-windstorm-79h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/lining_axforce_80_cl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/mizuno-caliber-s-pro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/mizuno-speedflex-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/spieler-E08_2-SMU_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/uberschall-F09_2_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/victor-auraspeed-80k.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/vot-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/yonex-astrox-88s-play-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/yonex-astrox-99-game-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/image/Vot-Cau-Long/Page-Chinh/yonex-astrox-99-tour-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GiuaKy/css/ao-cau-long.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GiuaKy/html/Ao-Cau-Long.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiuaKy/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiuaKy/html/TrangChu.html" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/html/TrangChu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GiuaKy/html/Giay-Cau-Long.html" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/html/Giay-Cau-Long.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GiuaKy/html/Vot-Cau-Long.html" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/html/Vot-Cau-Long.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiuaKy/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiuaKy/js/myCarousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/js/myCarousel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -67,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/GiuaKy/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/GiuaKy/image/Quan-Cau-Long" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -76,9 +58,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\image\Quan-Cau-Long" />
+      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\image\Giay-Cau-Long" />
       <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\css" />
       <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\image\Vot-Cau-Long" />
       <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\html\Vợt cầu lông" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\image\Ao-Cau-Long" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -107,6 +94,9 @@
       <workItem from="1639827640456" duration="3647000" />
       <workItem from="1639831344485" duration="797000" />
       <workItem from="1639921541169" duration="5836000" />
+      <workItem from="1640065600651" duration="3657000" />
+      <workItem from="1640080569993" duration="587000" />
+      <workItem from="1640179967359" duration="2759000" />
     </task>
     <servers />
   </component>
