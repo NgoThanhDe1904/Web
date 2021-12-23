@@ -702,7 +702,7 @@
 }
 
 .Vot-Cau-Long .Vot .link-Vot {
-    background-color: #eeeeee;
+    background-color: #fff;
     height: 50px;
     margin: auto;
 }
@@ -806,7 +806,7 @@
     }
 
     .Giay-Cau-Long .Giay .link-Giay {
-        background-color: #eeeeee;
+        background-color: #fff;
         height: 50px;
         margin: auto;
     }
@@ -911,7 +911,7 @@
     }
 
     .Ao-Cau-Long .Ao .link-Ao {
-        background-color: #eeeeee;
+        background-color: #fff;
         height: 50px;
         margin: auto;
     }
@@ -975,6 +975,12 @@
         left: 0;
         right: 0;
         background: #fff;
+    }
+    .title-edit-Ao li a{
+        color: black;
+    }
+    .title-edit-Ao li a:hover{
+        color: #2990ff;
     }
 
     .edit-image-ao i {

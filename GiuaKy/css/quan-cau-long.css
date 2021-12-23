@@ -394,3 +394,71 @@ li.dropdown{
     border: 1px solid #aeaeae;
     margin: 5px;
 }
+/*Footer*/
+.footer-list{
+    margin-top: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+    color: rgb(128, 128, 137);
+    background-color: white;
+}
+.styles-Information-sc{
+    padding: 16px 0px;
+}
+.Container-sc-int0{
+    width: 1270px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+.styles-footerHeading-sc{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: rgb(56, 56, 61);
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+.small-text{
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(128, 128, 137);
+}
+.block{
+    width: 226px;
+}
+.footer-list p{
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(128, 128,137);
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+.icon{
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+.styles-Address-sc{
+    padding: 16px 0px;
+    background-color: rgb(255, 255, 255);
+}
+.Container-add-sc{
+    width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.address{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.LITicon{
+    display: inline-block;
+    vertical-align: middle;
+}
