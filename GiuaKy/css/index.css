@@ -411,13 +411,15 @@
     }
 
     .list-no-padding .mainMenu span {
-        background: #fdd835;
         display: block;
         position: relative;
         z-index: 11;
         padding: 13px 0;
         font-weight: bold;
     }
+.list-no-padding .mainMenu span:hover{
+
+}
     .list-no-padding .mainMenu span::after{
         content: '';
         border-top: 6px solid #666;
@@ -536,7 +538,6 @@
         position: absolute;
         background: #fff;
         min-width: 160px;
-        /*box-shadow: 0 8px 16px 0 #111;*/
         z-index: 1;
         left: 330px;
     }
@@ -697,7 +698,7 @@
     padding-right: 15px;
 }
 .Vot-Cau-Long .Vot {
-    margin-top: 50px;
+
     background-color: #fff;
 }
 
@@ -801,7 +802,6 @@
         padding-right: 15px;
     }
     .Giay-Cau-Long .Giay {
-        margin-top: 50px;
         background-color: #fff;
     }
 
@@ -907,7 +907,6 @@
 }
     .Ao-Cau-Long .Ao {
         background-color: #fff;
-        margin-top: 50px;
     }
 
     .Ao-Cau-Long .Ao .link-Ao {
@@ -1010,7 +1009,6 @@
     }
     .Quan-Cau-long .Quan {
         background-color: #fff;
-        margin-top: 50px;
     }
     .link-Quan ul li a{
         color: black;
@@ -1106,7 +1104,6 @@
     }
     .Balo-Cau-long .Balo {
         background-color: #fff;
-        margin-top: 50px;
     }
 
     .Balo-Cau-long .Balo .link-Balo {
@@ -1204,7 +1201,6 @@
     }
     .Tui-Vot-Cau-Long .Tui {
         background-color: #fff;
-        margin-top: 50px;
     }
 
     .Tui-Vot-Cau-Long .Tui .link-Tui {
@@ -1302,7 +1298,6 @@
 }
     .Phu-Kien-Cau-Long .Phu-Kien {
         background-color: #fff;
-        margin-top: 50px;
     }
 
     .Phu-Kien-Cau-Long .Phu-Kien .link-Phu-Kien {
@@ -1347,8 +1342,8 @@
     }
 
     .image-PhuKien img {
-        width: 400px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
 
     .img-PhuKien {
@@ -1358,7 +1353,7 @@
     .title-edit-PhuKien {
         color: red;
         text-align: center;
-        font-size: 18px;
+        font-size: 1em;
         padding: 15px;
         position: relative;
         bottom: 0;
@@ -1562,6 +1557,9 @@
     color: rgb(128, 128,137);
     margin-bottom: 12px;
     margin-top: 0px;
+}
+.footer-list .block a:hover{
+    color: #2990ff;
 }
 .icon{
     display: inline-block;
