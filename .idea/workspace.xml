@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ce7fb2f-0a48-465b-9187-c87a84ad5e9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GiuaKy/css/ao-cau-long.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiuaKy/html/Ao-Cau-Long.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GiuaKy/css/tui-cau-long.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiuaKy/html/Giay-Cau-Long.html" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/html/Giay-Cau-Long.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GiuaKy/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/css/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GiuaKy/html/Tui-Cau-Long.html" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/html/Tui-Cau-Long.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GiuaKy/html/Vot-Cau-Long.html" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/html/Vot-Cau-Long.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GiuaKy/html/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/html/admin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/GiuaKy/image/Balo-Cau-Long" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/GiuaKy/image/Tham-San" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -58,13 +59,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\image\Balo-Cau-Long" />
-      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\image\Phu-Kien-Cau-Long" />
-      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\image\Quan-Cau-Long" />
-      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\image\Giay-Cau-Long" />
-      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\css" />
+      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\image\Tham-San" />
+      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\image\May-Dan-Vot" />
+      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\image\Tui-Cau-Long" />
+      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\html\May_dan_va_tham" />
+      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\html\Tui_cau_long" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\html" />
+      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\image\Tui-Cau-Long" />
+      <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\image\Tui" />
       <recent name="C:\Users\Admin\OneDrive\Tài liệu\GitHub\Web\GiuaKy\image\Ao-Cau-Long" />
     </key>
   </component>
@@ -102,6 +106,8 @@
       <workItem from="1640346923431" duration="2048000" />
       <workItem from="1640350370148" duration="7637000" />
       <workItem from="1640442277339" duration="3532000" />
+      <workItem from="1640523212296" duration="3385000" />
+      <workItem from="1640528180174" duration="6045000" />
     </task>
     <servers />
   </component>
