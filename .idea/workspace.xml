@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ce7fb2f-0a48-465b-9187-c87a84ad5e9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GiuaKy/css/tui-cau-long.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GiuaKy/css/sanpham.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiuaKy/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/css/admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiuaKy/html/Tui-Cau-Long.html" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/html/Tui-Cau-Long.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiuaKy/html/Vot-Cau-Long.html" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/html/Vot-Cau-Long.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiuaKy/html/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/html/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GiuaKy/css/giohang.css" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/css/giohang.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GiuaKy/css/thong-tin-san-pham.css" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/css/thong-tin-san-pham.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GiuaKy/css/vot_cau_long.css" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/css/vot_cau_long.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GiuaKy/html/GioHang.html" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/html/GioHang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GiuaKy/html/SanPham.html" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/html/SanPham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GiuaKy/html/Thong-Tin-San-Pham.html" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/html/Thong-Tin-San-Pham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GiuaKy/html/TrangChu.html" beforeDir="false" afterPath="$PROJECT_DIR$/GiuaKy/html/TrangChu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +51,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -56,6 +64,9 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -109,6 +120,11 @@
       <workItem from="1640523212296" duration="3385000" />
       <workItem from="1640528180174" duration="6045000" />
       <workItem from="1640608750149" duration="11937000" />
+      <workItem from="1640671288711" duration="2162000" />
+      <workItem from="1640673526587" duration="6125000" />
+      <workItem from="1640692672571" duration="8607000" />
+      <workItem from="1641184917545" duration="786000" />
+      <workItem from="1641189918561" duration="222000" />
     </task>
     <servers />
   </component>

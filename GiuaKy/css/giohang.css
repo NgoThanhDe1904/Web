@@ -307,7 +307,7 @@ li.dropdown{
     float: left;
     position: relative;
     min-height: 1px;
-    z-index: 1;
+    z-index: 999;
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -383,10 +383,9 @@ li.dropdown{
     border-right: 6px solid transparent;
     width: 0;
     height: 0;
-    display: inline-block;
     margin-left: 38px;
     position: relative;
-    top: -2px;
+    top: 11px;
 }
 
 .mainMenu .nav-cate li:hover .subcate {
@@ -539,7 +538,7 @@ li.dropdown {
     background: #fff;
     min-width: 160px;
     /*box-shadow: 0 8px 16px 0 #111;*/
-    z-index: 1;
+    z-index: 999;
     left: 330px;
 }
 
@@ -1020,11 +1019,11 @@ main{
   margin-bottom: 50px;
 }
 .Vot-Cau_Long .Vot{
-  background-color: #999999;
+  background-color: #fff;
   margin-top: 50px;
 }
 .Vot-Cau_Long .Vot .link-Vot{
-  background-color: #cccccc;
+  background-color: #fff;
   height: 50px;
   margin: auto;
 }
@@ -1055,12 +1054,19 @@ main{
   width: 185px;
   height: 175px;
 }
+.Vot-Cau_Long .image .img .title-edit p span{
+    color: red;
+}
 .Vot-Cau_Long .image .img .title-edit{
   font-size: 10px;
   padding: 12px;
   bottom: 0;left: 0;
   right: 0;
   background: #eeeeee;
+    text-align: center;
+}
+.Vot-Cau_Long .image .img .title-edit li a:hover{
+    color: #2990ff;
 }
 .Vot-Cau_Long .edit-image i{
   position: absolute;

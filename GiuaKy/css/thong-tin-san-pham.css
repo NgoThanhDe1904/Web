@@ -584,7 +584,7 @@ li.dropdown-main {
     font-weight: normal;
 }
 main{
-    width: 1366px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -606,7 +606,7 @@ main{
     border-radius: 5px;
 }
 ._11Y-VZ{
-    width: 450px;
+    width: 480px;
     padding: 15px;
     flex-shrink: 0;
 }
@@ -614,8 +614,7 @@ main{
     flex-direction: column;
 }
 .url-image{
-    width: 100%;
-    padding-top: 100%;
+    height: 370px;
     background-position: 50%;
 }
 .list-image{
@@ -623,17 +622,16 @@ main{
     position: relative;
 }
 .list-main-item{
-    display: inline-block;
     padding:5px;
     box-sizing: border-box;
-    width: 20%;
+    width: 15%;
 }
 .items{
     position: relative;
 }
 .img-main{
     width: 100%;
-    background-position: 50%;
+    background-position: 100%;
     height: 30px;
 }
 .list-image i{
@@ -652,7 +650,171 @@ main{
 .list-image i.fa-chevron-right{
     right: 1%;
 }
-
+.title-main-image{
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: bolder;
+}
+.price-main{
+    margin: 0 10px;
+    color: #aeaeae;
+}
+.vJ8y-b{
+    display: flex;
+    position: relative;
+    left: -115px;
+    margin: 10px 0;
+}
+.flex-row{
+    margin-bottom: 20px;
+}
+._2Dz7kG{
+    left: 10px;
+}
+.decreases{
+    color: red;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.sale{
+    font-family: -apple-system;
+    color: #721c24;
+}
+.label{
+    font-size: 15px;
+    margin-right: 20px;
+}
+.form{
+    overflow: hidden;
+    display: none;
+}
+.items-center span:hover{
+    color: red;
+}
+/*Size*/
+._3ABAc7{
+    margin-bottom: 20px;
+}
+.product-variation{
+    margin-right: 3px;
+}
+/*So Luong*/
+._28qt-B{
+    margin-left: 10px;
+}
+._14flVw{
+    margin-top: -5px;
+    padding: 5px;
+    width: 40px;
+}
+/*Them vao gio hang*/
+.btn--l{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    background: #ff917f;
+}
+/*Chi tiet san pham*/
+._1Qm7yD {
+    background: rgba(0,0,0,.02);
+    color: rgba(0,0,0,.87);
+    font-size: 1.125rem;
+    padding: .875rem;
+    text-transform: capitalize;
+}
+._1A0RCW{
+    width: 100px;
+    color: #aeaeae;
+}
+._1pEVDa{
+    display: flex;
+    margin-bottom: 10px;
+}
+._1pEVDa div{
+    left: 10px;
+    position: relative;
+}
+/*Mo ta san pham*/
+.Fo12Im{
+    margin:.875rem  .9375rem .9375rem ;
+}
+.Mhqp_x{
+    white-space: pre-line;
+    color: rgba(0,0,0,.8);
+    font-size: .875rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.875rem;
+}
+/*List sản phẩm*/
+.list-sp-khac{
+    margin-bottom: 50px;
+}
+.Vot-Cau_Long .Vot{
+    background-color: #fff;
+    margin-top: 50px;
+}
+.Vot-Cau_Long .Vot .link-Vot{
+    background-color: #fff;
+    height: 50px;
+    margin: auto;
+}
+.Vot-Cau_Long .Vot .link-Vot .style_edit{
+    float: left;
+    clear: both;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.edit-image{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border: 3px solid #222222;
+}
+.Vot-Cau_Long .image{
+    width: 100%;display: flex;
+}
+.Vot-Cau_Long .image .img{
+    position: relative;
+    color: #eeeeee;
+    transition: 1s;
+    margin: 10px 10px 0 10px;
+}
+.Vot-Cau_Long .image img{
+    width: 185px;
+    height: 175px;
+}
+.Vot-Cau_Long .image .img .title-edit p span{
+    color: red;
+}
+.Vot-Cau_Long .image .img .title-edit{
+    font-size: 10px;
+    padding: 12px;
+    bottom: 0;left: 0;
+    right: 0;
+    background: #eeeeee;
+    text-align: center;
+}
+.Vot-Cau_Long .image .img .title-edit li a:hover{
+    color: #2990ff;
+}
+.Vot-Cau_Long .edit-image i{
+    position: absolute;
+    top: 40%;
+    font-size: 40px;
+    color: #b3d4fc;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.edit-image i.fa-chevron-circle-left{
+    left: 1%;
+}
+.edit-image i.fa-chevron-circle-right{
+    right: 1%;
+}
 /*Footer*/
 .footer-list{
     margin-top: 16px;
